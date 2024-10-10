@@ -1,0 +1,3 @@
+F:\program\CMake\bin\cmake.exe -E rm -f CMakeFiles\SmartCar.dir/objects.a
+F:\program\Mingw\bin\ar.exe qc CMakeFiles\SmartCar.dir/objects.a @CMakeFiles\SmartCar.dir\objects1.rsp
+F:\program\Mingw\bin\c++.exe -Wl,--whole-archive CMakeFiles\SmartCar.dir/objects.a -Wl,--no-whole-archive -o SmartCar.exe -Wl,--out-implib,libSmartCar.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SmartCar.dir\linkLibs.rsp
